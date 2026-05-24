@@ -14,7 +14,7 @@ st.markdown("---")
 # --- 2. ETL: DATA LOADING & CLEANING ---
 @st.cache_data
 def load_and_clean_data():
-    df = pd.read_csv('Prod_cleaned.csv')
+    pd.read_csv("data/Prod_cleaned.csv")
     
     # Strip whitespace from headers
     df.columns = df.columns.str.strip()
