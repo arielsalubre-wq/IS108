@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(page_title="Poultry BI Dashboard", layout="wide")
-st.title("🐔 Poultry Production & Dressing BI Dashboard")
+st.title("Poultry Production & Dressing BI Dashboard")
 st.markdown("### Final Project: Business Intelligence Analysis")
 st.markdown("---")
 
